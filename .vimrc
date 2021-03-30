@@ -126,7 +126,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'chxuan/cpp-mode'
 Plug 'chxuan/vim-edit'
 Plug 'chxuan/change-colorscheme'
-Plug 'chxuan/prepare-code'
+"Plug 'chxuan/prepare-code'
 Plug 'chxuan/vim-buffer'
 Plug 'chxuan/vimplus-startify'
 Plug 'chxuan/tagbar'
@@ -169,6 +169,10 @@ endif
 
 call plug#end()  
 
+if has('mouse')
+    set mouse=a
+endif
+
 " load vim default plugin
 runtime macros/matchit.vim
 
@@ -190,8 +194,22 @@ nnoremap <leader>s :source $MYVIMRC<cr>
 nnoremap <leader><leader>i :PlugInstall<cr>
 nnoremap <leader><leader>u :PlugUpdate<cr>
 nnoremap <leader><leader>c :PlugClean<cr>
+" map json arrangement
+nnoremap <leader>j :%!python -m json.tool<cr>
+" open terminal 
+nnoremap <leader>m :term<cr>
+"open file in vertically
+nnoremap <leader>x :140 vsplit<space>
+
+nmap <c-s> :w<cr>
+vmap <C-S> <C-C>:update<CR>
+imap <C-S> <C-O>:update<CR>
 
 " 分屏窗口移动
+" set mouse 
+nnoremap mm :set mouse=a<cr>
+nnoremap mmm :set mouse-=a<cr>
+
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
@@ -270,11 +288,11 @@ let g:NERDTreeDirArrowCollapsible='▼'
 
 " YCM
 " 如果不指定python解释器路径，ycm会自己搜索一个合适的(与编译ycm时使用的python版本匹配)
-" let g:ycm_server_python_interpreter = '/usr/bin/python2.7'
+let g:ycm_server_python_interpreter = '/usr/bin/python3'
 let g:ycm_confirm_extra_conf = 0 
 let g:ycm_error_symbol = '✗'
 let g:ycm_warning_symbol = '✹'
-let g:ycm_seed_identifiers_with_syntax = 1 
+let g:ycm_seed_identifiers_with_syntax = 1
 let g:ycm_complete_in_comments = 1 
 let g:ycm_complete_in_strings = 1 
 let g:ycm_collect_identifiers_from_tags_files = 1
