@@ -325,19 +325,6 @@ An automatic configuration program for vim
 </a>
 
 
-## 支持开源:heart:
-
-> 有意愿献爱心的小伙伴，务必将github账号写入捐款备注哦，谢谢大家
-
-| wechat                                                                                                     | alipay                                                                                                       |
-| ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| <a href='#支持开源'><img src="https://github.com/chxuan/vimplus/blob/master/screenshots/wechat.png" height="150" width="150" /></a> | <a href='#支持开源'><img src="https://github.com/chxuan/vimplus/blob/master/screenshots/alipay.png" height="150" width="150" /></a> |
-
-## vimplus:star:趋势图
-
-![Stargazers over time](https://starchart.cc/chxuan/vimplus.svg)
-
-
 ## License
 
 This software is licensed under the [MIT license][75]. © 2016 chxuan
