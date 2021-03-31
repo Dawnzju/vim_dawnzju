@@ -333,18 +333,6 @@ An automatic configuration program for vim
 | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | <a href='#支持开源'><img src="https://github.com/chxuan/vimplus/blob/master/screenshots/wechat.png" height="150" width="150" /></a> | <a href='#支持开源'><img src="https://github.com/chxuan/vimplus/blob/master/screenshots/alipay.png" height="150" width="150" /></a> |
 
-| 序号  | 支持者             | RMB   | 时间       |
-| ----- | -------            | ----- | -----      |
-| 1     | [zhoumengkang][80] | ¥50   | 2019-09-28 |
-| 2     | [zhoumengkang][80] | ¥50   | 2019-09-29 |
-| 3     | [zibraque][85]     | ¥50   | 2019-11-25 |
-| 4     | [gfreewind][86]    | ¥20   | 2019-12-27 |
-| 5     | [wh656325437][88]  | ¥20   | 2020-07-02 |
-| 6     | [luguifang][89]    | ¥20   | 2020-07-12 |
-| 7     | [liyewen521][90]   | ¥20   | 2020-07-27 |
-| 8     | [xht19980305][91]  | ¥20   | 2020-08-14 |
-
-
 ## vimplus:star:趋势图
 
 ![Stargazers over time](https://starchart.cc/chxuan/vimplus.svg)
